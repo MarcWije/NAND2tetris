@@ -7,4 +7,28 @@
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 // The algorithm is based on repetitive addition.
 
-//// Replace this comment with your code.
+@0
+D=A
+@2
+M=D
+@0
+D=M
+@22
+D;JLE
+@3
+M=D
+@1
+D=M
+@22
+D;JLE
+@2
+M=D+M
+@3
+M=M-1
+@3
+D=M
+@10
+D;JGT
+@22
+0;JMP
+
