@@ -1,0 +1,1 @@
+A repository containing all the project files for the NAND2Tetris open-source course. 
